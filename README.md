@@ -6,13 +6,13 @@
 ## Example
 
 ```js
-const { EmbedBuilder } = require('module');
+const { EmbedBuilder } = require('@kkauabr/bot-utils');
 
 const  embed = new  EmbedBuilder()
 
 .setTitle("Hi")
 .setDescription("Hello World!")
-channel.createMessage({ embed:  embed })
+channel.createMessage({ embed: embed })
 ```
 
 ## Functions
